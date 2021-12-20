@@ -40,11 +40,6 @@ img {
 .column {
   flex: 1;
   text-align: center;
-  color: #696969;
-  font-size: 1.25rem;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
 }
 .cards__item {
   display: flex;

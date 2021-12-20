@@ -77,9 +77,9 @@ const Pokemon = () => {
   return (
     <>
       {pokemon.map((p) => (
-        <div key={p.order} class='cards__item'>
-          <div class='card'>
-            <div class='card__content'>
+        <div key={p.order} className='cards__item'>
+          <div className='card'>
+            <div className='card__content'>
               <img
                 src={
                   p.sprites.other['official-artwork'][
@@ -88,16 +88,16 @@ const Pokemon = () => {
                 }
                 alt={p.name}
               />
-              <div class='name card__title'>
+              <div className='name card__title'>
                 Species: {p.name}
               </div>
-              <div class='type card__item'>
+              <div className='type card__item'>
                 Type: {p.types[0].type.name}
               </div>
-              <div class='height card__item'>
+              <div className='height card__item'>
                 Height: {p.height}
               </div>
-              <div class='weight card__item'>
+              <div className='weight card__item'>
                 Weight: {p.weight}
               </div>
             </div>
