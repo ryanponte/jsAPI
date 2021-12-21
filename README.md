@@ -2,7 +2,9 @@
 Coding challenge using JS, CSS, HTML, REACT
 
 Using:
+
 https://pokeapi.co/
+
 https://jsonplaceholder.typicode.com/
 
 Part 1 is in the file htmlProject.html. 
